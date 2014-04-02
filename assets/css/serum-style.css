@@ -8,3 +8,13 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+.cover-small {
+    display: block; 
+    min-height: 20%;
+    min-width: 100%;
+    height: auto;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
