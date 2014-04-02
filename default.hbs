@@ -17,6 +17,7 @@
 
     {{! Styles'n'Scripts }}
     <link rel="stylesheet" type="text/css" href="{{asset "css/screen.css"}}" />
+    <link rel="stylesheet" type="text/css" href="{{asset "css/serum-style.css"}}" />
       
     {{! Ghost outputs important style and meta data with this tag }}
     {{ghost_head}}
@@ -24,7 +25,7 @@
 <body class="{{body_class}}">
 
     
-    
+    {{> cover-page }}
     
     {{! Everything else gets inserted here }}
     {{{body}}}
