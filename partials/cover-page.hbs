@@ -7,6 +7,18 @@
         {{/if}}
         
         <h1 class="cover-title"><a href="{{@blog.url}}" title="{{@blog.title}}">{{@blog.title}}</a></h1>
+        <hr class="divder cover-divider"></hr>
+        <h2 class="cover-description" title="{{@blog.description}}">
+            {{@blog.description}}
+        </h2>
+        <hr class="divder cover-divider"></hr>
+        <div class="cover-social">
+            {{!social icons}}
+        
+            {{> social }}
+        
+            {{!/social icons}}
+        </div>
         
         <a href="#content" class="scroll"><i class="fa fa-arrow-circle-down"></i> </a>
     </div>

@@ -36,14 +36,26 @@ a {
 }
 .scroll {
     font-size: 2em;   
+    position: relative;
+    top: 200px;
 }
-.scroll a {
+.scroll{
     color: white;
 }
-.scroll a:hover {
+.scroll:hover {
     color: #57A3E8;   
 }
 .logo img{
     border: 3px solid #e5e5e5;
     border-radius: 20px;
+}
+.cover-divider {
+    width: 50%;
+    margin: 1em;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cover-description {
+    font-size: 1em;
+    font-weight: normal;
 }
