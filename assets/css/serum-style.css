@@ -1,3 +1,11 @@
+/*MAIN STYLES*/
+ul {
+ list-style-type: none;   
+}
+a {
+    text-decoration: none;
+}
+/*COVER PAGE STYLES*/
 .cover {
     display: table; 
     min-height: 100%;
@@ -18,29 +26,20 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
-ul {
- list-style-type: none;   
-}
-a {
-    text-decoration: none;
-}
 .cover-content {
     display: table-cell;
     vertical-align: middle;
-    background-color:rgba(0, 0, 0, 0.5);
-    color: white;
+    background-color:rgba(15, 0, 15, 0.6);
     text-align: center;
 }
-.cover-content h1 a {
-    color: white;
-}
+
 .scroll {
     font-size: 2em;   
     position: relative;
     top: 200px;
 }
 .scroll{
-    color: white;
+    color: #eee;
 }
 .scroll:hover {
     color: #57A3E8;   
@@ -50,12 +49,63 @@ a {
     border-radius: 20px;
 }
 .cover-divider {
-    width: 50%;
+    width: 25%;
     margin: 1em;
     margin-left: auto;
     margin-right: auto;
+    border-top: 1px solid #aaa;
 }
 .cover-description {
     font-size: 1em;
     font-weight: normal;
+    letter-spacing: normal;
+    line-height: 32px;
 }
+/*COVER LINK COLORS */
+.cover-social{
+    color: #eee;   
+    font-size: 1.5em;
+}
+.cover-content h1 {
+    margin: .2em;   
+    text-rendering: optimizeLegibility;
+}
+.cover-content h1 a {
+    color: #eee;
+    font-family: 'Josefin Slab', sans-serif;
+    font-weight: normal;
+    letter-spacing: normal;
+    font-weight: bold;
+}
+.cover-content h1 a:hover {
+    color: #57A3E8;   
+}
+.cover-description {
+    color: #eee;   
+    font-weight: normal;
+    font-family: 'Raleway', sans-serif;
+    text-rendering: optimizeLegibility; 
+}
+.cover-social a{
+    color: #eee;   
+}
+.cover-social a:hover {
+    color: #57A3E8;   
+}
+
+/*MAIN PAGE POST STYLES HERE*/
+.posts {
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.posts-title{
+    font-family: 'Lato', hevetica, arial, sans-serif;
+}
+.excerpt {
+    font-family: 'Open Sans', helvetica, arial, sans-serif;
+    line-height: 1.5em;
+}
+/*POSTS STYLES BEGIN HERE*/
