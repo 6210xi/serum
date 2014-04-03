@@ -1,10 +1,14 @@
-<div class="screen">
-    </div>    
 <header class="cover" style="background-image: url({{@blog.cover}});">
 
+    <div class="cover-content">
+<!--        Checks to sell if there is a logo-->
+        {{#if @blog.logo}}
+        <a href="{{@blog.url}}" class="logo" title="{{@blog.title}}"><img src="{{@blog.logo}}" width="80" alt="{{@blog.title}}"/></a>
+        {{/if}}
+        
+        <h1 class="cover-title"><a href="{{@blog.url}}" title="{{@blog.title}}">{{@blog.title}}</a></h1>
+        
+        <a href="#content" class="scroll"><i class="fa fa-arrow-circle-down"></i> </a>
+    </div>
     
-    <a href="#content">SCROLL DOWN</a>
-
-
-
 </header>

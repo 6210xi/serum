@@ -1,9 +1,8 @@
-
 .cover {
-    display: block; 
+    display: table; 
     min-height: 100%;
     min-width: 100%;
-    height: auto;
+    height: 100%;
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
@@ -18,4 +17,33 @@
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
+}
+ul {
+ list-style-type: none;   
+}
+a {
+    text-decoration: none;
+}
+.cover-content {
+    display: table-cell;
+    vertical-align: middle;
+    background-color:rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+}
+.cover-content h1 a {
+    color: white;
+}
+.scroll {
+    font-size: 2em;   
+}
+.scroll a {
+    color: white;
+}
+.scroll a:hover {
+    color: #57A3E8;   
+}
+.logo img{
+    border: 3px solid #e5e5e5;
+    border-radius: 20px;
 }
